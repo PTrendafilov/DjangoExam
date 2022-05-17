@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'djangoExam.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'exam',
-        'USER': 'postgres',
-        'PASSWORD':'777777Ogi',
-        'HOST': 'localhost',
-        'PORT':'5433',
+        'NAME': 'dbName',
+        'USER': 'dbUser',
+        'PASSWORD':'dbPassword',
+        'HOST': 'dbHpst',
+        'PORT':'dbPort',
     }
 }
 
